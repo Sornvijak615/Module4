@@ -51,8 +51,7 @@ void setup() {
   c10.pos = student;
 
   CARD_ID card_Array[] = {c1, c2, c3, c4, c5, c6, c7, c8, c9, c10};
-  String stringShowArray;
-  for (int i = 0; i <= 9; i++) {
+  for (int i = 0; i <= 19; i++) {
     card_Array[i];
     if (teacher) {
       Serial.println("teacher");
